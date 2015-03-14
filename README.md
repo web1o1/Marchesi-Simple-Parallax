@@ -1,4 +1,4 @@
-# Marchesi-Simple-Parallax
+# Marchesi Simple Parallax
 Welcome to the Marchesi-Simple-Parallax wiki by Luis A. Caro Marchesi!
 
 I found myself trying to find an easy to use parallax plug-in that actually worked and it was impossible, I tried around seven plug-ins and I was absolutely disappointed, they all eventually gave errors or didn't even start, so I decided to put and end to this and build one of my own :)
