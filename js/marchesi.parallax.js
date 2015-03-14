@@ -10,7 +10,7 @@ $(document).ready(function(){
     myHeight = findHeight();
     
     //Prepare objects
-    $(parallaxObject).css('background-size', '100% auto');
+    $(parallaxObject).css('background-size', 'cover');
     $(parallaxChild).css('position','relative');
     $(parallaxObject).css('overflow','hidden');
     $(parallaxObject).css('background-attachment','fixed');
