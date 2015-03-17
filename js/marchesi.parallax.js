@@ -16,13 +16,17 @@ $(document).ready(function(){
     $(parallaxObject).css('background-attachment','fixed');
     
     //Run for the first time to set initial positions
-    parallax(parallaxObject);
+    if($(parallaxObject).length != 0){
+        parallax(parallaxObject);
+    }
     
     $(window).scroll(function (event) {
         //Load parallax Efect Function everytime the window is scrolled
-        $(parallaxObject).each(function(){
-            parallax(this)        
-        });
+        if($(parallaxObject).length != 0){
+            $(parallaxObject).each(function(){
+                parallax(this)        
+            });
+        }
     });
 
     function parallax(item){
